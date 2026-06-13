@@ -1,0 +1,79 @@
+# ===========================================
+# Gradle / Java
+# ===========================================
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===========================================
+# IDE
+# ===========================================
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# ===========================================
+# Frontend (Node.js / Vue / Vite)
+# ===========================================
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+
+# ===========================================
+# Uploaded files (keep directory, ignore contents)
+# ===========================================
+uploads/*
+!uploads/.gitkeep
+
+# ===========================================
+# OS generated files
+# ===========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ===========================================
+# Project documents & scripts (not part of source)
+# ===========================================
+docs/*.doc
+docs/*.docx
+docs/*.pdf
+scripts/*.pyc
+*.pyc
+__pycache__/
